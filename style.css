@@ -5,84 +5,79 @@ html, body {
   height: 100%;
 }
 
-.module_1{
+.module_1 {
   box-sizing: border-box;
+  visibility: visible;
 
   position: absolute;
   width: 1382px;
   height: 50px;
-  left: calc(50% - 1382px/2 - 3px);
+  left: 26px;
   top: 25px;
   
   background: #C3BBBB;
   mix-blend-mode: normal;
-  border: 1px solid #C3BBBB;
+  border: 1px solid #ff0000;
   border-radius: 20px;
   
-  padding-left: 10px;
+  padding-left: 20px;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 10px;
   
   color: #000000;
 }
 
 .d1{
+  visibility: visible;
   position: absolute;
   width: 59px;
   height: 18px;
-  left: 1114px;
-  top: 41px;
-  
+  left: 1120px;
+  top: 0px;
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  
-  color: #000000;
-    
-}
 
-  .d2{
-    position: absolute;
-width: 195px;
-height: 18px;
-left: 1173px;
-top: 41px;
-  }
+  color: #000000;
+}
   .d2 input {
-      width: 195px;
+      position: absolute;
+      width: 175px;
       height: 18px;
-      padding-left: 1px;
-      border: 1px solid #5E5E5E;
+      left: 1163px;
+      top: 14px;
+      border: 1px solid #ae1717;
       border-radius: 5px;
       outline: none;
       background: #ffffff;
       color: #5E5E5E;
       }
-    .d2 button {
+  .d2 button {
       position: absolute;
-      top: 8px;
-      right: 20px;
-      left: 175px;
-      width: 25px;
+      width: 21px;
       height: 21px;
+      left: 1353px;
+      top: 14px;
       border: none;
       background: #5E5E5E;
       border-radius: 5px;
       cursor: pointer;
       }
-    .d2 button:before {
-      content: "\f002";
+  .d2 button:before {
+      content: "";
+      background-image: url('search-icon.jpeg');
       font-family: FontAwesome;
       font-size: 16px;
       color: #C3BBBB;
   }
-  
   .module_2{
+    visibility: hidden;
     box-sizing: border-box;
     position: absolute;
     width: 1382px;
