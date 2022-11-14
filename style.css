@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   height: 100%;
 }
+
 .module_1{
   box-sizing: border-box;
 
@@ -56,11 +57,11 @@ top: 41px;
       width: 195px;
       height: 18px;
       padding-left: 1px;
-      border: 1px solid ##5E5E5E;
+      border: 1px solid #5E5E5E;
       border-radius: 5px;
       outline: none;
       background: #ffffff;
-      color: ##5E5E5E;
+      color: #5E5E5E;
       }
     .d2 button {
       position: absolute;
@@ -78,10 +79,20 @@ top: 41px;
       content: "\f002";
       font-family: FontAwesome;
       font-size: 16px;
-      color: #000000;
+      color: #C3BBBB;
   }
   
-
+  .module_2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1382px;
+    height: 893px;
+    left: 26px;
+    top: 104px;
+    
+    background: #C3BBBB;
+    border-radius: 20px;
+  }
   
 #map {
   position: absolute;
