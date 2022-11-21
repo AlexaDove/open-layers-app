@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Первый запуск Openlayers</title>
-    <script type="module" crossorigin src="/open-layers-app/assets/index.6ab4fe4e.js"></script>
-    <link rel="stylesheet" href="/open-layers-app/assets/index.3d6a2632.css">
+    <title>ADove Openlayers</title>
+    <script type="module" crossorigin src="/open-layers-app/assets/index.7e56edaf.js"></script>
+    <link rel="stylesheet" href="/open-layers-app/assets/index.5dbd16b1.css">
   </head>
   <body>
-    <div class="module_1">
+  <div class="module_1">
       <h1>Заголовок</h1>
-      <div class="d1"><p>поиск</p></div>
-    
+      <div class="d1"><p>поиск</p>
+      </div>
       <div class="d2">
       <form>
       <input type="text" placeholder=" искать ...">
@@ -20,7 +20,7 @@
     </div> 
   </div>
 
-   <div class="module_2">
+  <div class="module_2">
     <div class="d3"></div>
   </div>
   
@@ -29,7 +29,42 @@
     <div class="d4"></div>
   </div>
 
-  <div id="map"></div>
+<button class="accordion">Секция 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Секция 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Секция 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+  <div id="map">
+
+  </div>
     
   </body>
 </html>
