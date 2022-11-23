@@ -123,16 +123,24 @@ html, body {
   visibility: visible;
   position: relative;
   display: flex;
-  width: 15%;
+  width: 552px;
   height: 40px;
-  left: 44px;
+  left: 35px;
   top: 526px;
   padding: 18px;
   border: 1px solid #ff0000;
+  border-radius: 20px;
+  margin: 10px;
+
   text-align: left;
   outline: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6px;
   font-size: 15px;
   transition: 0.4s;
+ 
   z-index: 1;
 }
 .active, .accordion:hover {
@@ -140,9 +148,29 @@ html, body {
 }
 
 .panel {
-  padding: 0 18px;
-  position: static;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  visibility: visible;
+  position: relative;
   display: flex;
-  background-color: white;
+  width: 510px;
+  height: 40px;
+  left: 35px;
+  top: 526px;
+  padding: 18px;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  margin: 10px;
+
+  text-align: left;
+  outline: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6px;
+  font-size: 15px;
+  transition: 0.4s;
+  background-color: #ff0000;
   overflow: hidden;
 }
