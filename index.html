@@ -8,7 +8,7 @@
   </head>
   <body>
   <div class="module_1">
-      <h1>Заголовок</h1>
+      <h1>Карта КРАСНОЯРСКА</h1>
       <div class="d1"><p>поиск</p>
       </div>
       <div class="d2">
@@ -27,30 +27,66 @@
     <div class="d4"></div>
   </div>
 
-<button class="accordion">Секция 1</button>
+<button class="accordion">ТРАНСПОРТ</button>
 <div class="panel">
-  <p>Lorem ipsum dolor sit amet</p>
+  <p>КЛАССИФИКАЦИЯ</p>
   <div>
-    <input type="checkbox" id="cb1"> <label for="cb1">Флажок 1</label>
+    <input type="checkbox" id="cb1"> <label for="cb1">Улицы и дороги общегородского значения</label>
   </div>
   <div>
-    <input type="checkbox" id="cb2"> <label for="cb2">Флажок 2</label>
+    <input type="checkbox" id="cb2"> <label for="cb2">Улицы и дороги районного значения</label>
+  </div><div>
+    <input type="checkbox" id="cb3"> <label for="cb3">Улицы и дороги местного значения</label>
   </div>
-</div>
-
-<button class="accordion">Секция 2</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet</p>
   <div>
-    <input type="checkbox" id="cb1"> <label for="cb1">Флажок 1</label>
+    <input type="checkbox" id="cb4"> <label for="cb4">Пешеходные улицы и дороги</label>
   </div>
 </div>
 
-<button class="accordion">Секция 3</button>
+<button class="accordion">ЗАСТРОЙКА</button>
 <div class="panel">
-  <p>Lorem ipsum dolor sit amet</p>
+  <p>ЗАСТРОЙКА (жилая)</p>
   <div>
-    <input type="checkbox" id="cb1"> <label for="cb1">Флажок 1</label>
+    <input type="checkbox" id="cb5"> <label for="cb5">Многоэтажная жилая застройка</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb6"> <label for="cb6">Среднеэтажная жилая застройка</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb7"> <label for="cb7">Малоэтажная жилая застройка</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb8"> <label for="cb8">Индивидуальная жилая застройка</label>
+  </div>
+  <p>ЗАСТРОЙКА (общественное)</p>
+  <div>
+    <input type="checkbox" id="cb9"> <label for="cb9">Лечебные объекты</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb10"> <label for="cb10">Спортивные объекты</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb11"> <label for="cb11">Культурные объекты</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb12"> <label for="cb12">Научно-образовательные объекты</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb13"> <label for="cb13">Административные и офисные объекты</label>
+  </div>
+</div>
+
+<button class="accordion">ОЗЕЛЕНЕНИЕ</button>
+<div class="panel">
+  <p>ОЗЕЛЕНЕНИЕ</p>
+  <div>
+    <input type="checkbox" id="cb14"> <label for="cb14">Общего пользования</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb15"> <label for="cb15">Ограниченного пользования</label>
+  </div>
+  <div>
+    <input type="checkbox" id="cb16"> <label for="cb16">Специального назначения</label>
   </div>
 </div>
 
@@ -71,13 +107,14 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-
 <div id="map">
 </div>
 
 <div id="map2">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d142690.51846305953!2d92.72530981767555!3d56.02664970499703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7afc9a1ff37e3%3A0xd597e1468fd647ff!2z0JrRgNCw0YHQvdC-0Y_RgNGB0LosINCa0YDQsNGB0L3QvtGP0YDRgdC60LjQuSDQutGA0LDQuQ!5e0!3m2!1sru!2sru!4v1669273702974!5m2!1sru!2sru" width="553" height="340" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
+<button class="custom-btn btn-9">Войти</button>
 
 <script type="module" src="./main.js"></script>
   </body>
