@@ -16,7 +16,7 @@ html, body {
   
   background: #C3BBBB;
   mix-blend-mode: normal;
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
   border-radius: 20px;
   
   padding-left: 20px;
@@ -50,7 +50,7 @@ html, body {
       height: 18px;
       left: 1063px;
       top: 13px;
-      border: 1px solid #ae1717;
+      border: 1px solid #5E5E5E;
       border-radius: 5px;
       outline: none;
       background: #ffffff;
@@ -82,7 +82,7 @@ html, body {
     height: 893px;
     left: 26px;
     top: 104px;
-    border: 1px solid #ff0000;
+    border: 0px solid #ff0000;
     background: #C3BBBB;
     border-radius: 20px;
     z-index: -1;
@@ -96,7 +96,7 @@ html, body {
     top: 480px;
     background: #D9D9D9;
     border-radius: 20px;
-    border: 1px solid #ff0000;
+    border: 0px solid #ff0000;
 
     padding-left: 15px;
     font-family: 'Inter';
@@ -114,7 +114,7 @@ html, body {
   left: 650px;
   top: 125px;
   border-radius: 20px;
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
 }
 .accordion {
   background-color: #eee;
@@ -128,7 +128,7 @@ html, body {
   left: 35px;
   top: 526px;
   padding: 18px;
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
   border-radius: 20px;
   margin: 10px;
 
@@ -173,7 +173,7 @@ html, body {
   left: 35px;
   top: 526px;
   padding: 18px;
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
   border-radius: 20px;
   margin: 10px;
   transition: 0.4s;
@@ -186,7 +186,7 @@ html, body {
   font-weight: 400;
   line-height: 0px;
   font-size: 15px;
-  background-color: #ff0000;
+  background-color: #eee;
 }
 
 input[type="checkbox"]:checked, 
@@ -289,19 +289,11 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 }
 .btn-9:hover {
   background: transparent;
-  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
   color: #fff;
 }
 .btn-9:hover:after {
   -webkit-transform: scale(2) rotate(180deg);
   transform: scale(2) rotate(180deg);
-  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
 }
 
 #map2 {
@@ -309,5 +301,5 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
   left: 44px;
   top: 125px;
   border-radius: 20px;
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
 }
