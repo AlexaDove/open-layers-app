@@ -34,7 +34,7 @@ html, body {
   position: absolute;
   width: 59px;
   height: 18px;
-  left: 1120px;
+  left: 1015px;
   top: 0px;
 
   font-family: 'Inter';
@@ -48,8 +48,8 @@ html, body {
       position: absolute;
       width: 175px;
       height: 18px;
-      left: 1163px;
-      top: 14px;
+      left: 1063px;
+      top: 13px;
       border: 1px solid #ae1717;
       border-radius: 5px;
       outline: none;
@@ -152,7 +152,8 @@ html, body {
   color: #777;
   font-weight: bold;
   float: right;
-  margin-left: 440px;
+  margin-left: 500px;
+  position: absolute;
 }
 
 .active:after {
@@ -249,6 +250,60 @@ input[type="checkbox"]:not(:checked) + label:after {
 input[type="checkbox"]:checked + label:after {
     opacity: 1;
 }
+
+.custom-btn {
+  width: 80px;
+  height: 25px;
+  color: #fff;
+  border-radius: 5px;
+  left: 1290px;
+  top: 38px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-9 {
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn-9:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  transition: all 0.3s ease;
+}
+.btn-9:hover {
+  background: transparent;
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  color: #fff;
+}
+.btn-9:hover:after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
 #map2 {
   position: absolute;
   left: 44px;
