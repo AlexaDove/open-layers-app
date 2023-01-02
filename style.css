@@ -325,6 +325,7 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
   background-color: rgba(1,1,1,0.75); position: fixed; left: 0;right: 0;top:0;bottom: 0; display: none; z-index:100; overflow: auto; } 
  
  .search {
+  visibility: visible;
   position: absolute;
   width: 175px;
   left: 120px;
@@ -341,7 +342,7 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
       border-radius: 5px 0 0 5px;
       outline: none;
       font-family: 'Inter';
-     font-style: oblique;
+      font-style: oblique;
       }
   .searchTerm:focus{
     color: #380136;
