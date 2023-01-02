@@ -34,45 +34,15 @@ html, body {
   position: absolute;
   width: 59px;
   height: 18px;
-  left: 1015px;
+  left: 820px;
   top: 0px;
 
   font-family: 'Inter';
-  font-style: normal;
+  font-style: oblique;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   color: #000000;
-}
-.d2 input {
-      position: absolute;
-      width: 175px;
-      height: 18px;
-      left: 1063px;
-      top: 13px;
-      border: 1px solid #5E5E5E;
-      border-radius: 5px;
-      outline: none;
-      background: #ffffff;
-      color: #5E5E5E;
-}
-.d2 button {
-      position: absolute;
-      width: 21px;
-      height: 21px;
-      left: 1353px;
-      top: 14px;
-      border: none;
-      background: #5E5E5E;
-      border-radius: 5px;
-      cursor: pointer;
-}
-.d2 button:before {
-      content: "";
-      background-image: url('search-icon.jpeg');
-      font-family: FontAwesome;
-      font-size: 16px;
-      color: #C3BBBB;
 }
 .module_2{
     visibility: visible;
@@ -269,6 +239,7 @@ input[type="checkbox"]:checked + label:after {
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
+
 }
 .btn-9 {
   border: none;
@@ -303,3 +274,93 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
   border-radius: 20px;
   border: 0px solid #ff0000;
 }
+.regButton {
+  width: 100px;
+  height: 25px;
+  color: #fff;
+  border-radius: 5px;
+  left: 1180px;
+  top: 38px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+   background-color: #1fd1f9;
+   background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    transition: all 0.3s ease;
+  border: 0px solid #ccc;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.regButton:hover {
+  background: #ccc;
+}
+
+#window {
+  width: 350px;
+  height: 460px;
+  margin: 40px auto;
+  background: #fff;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  z-index: 150; display: none;
+   position: fixed; left: 0;right: 0;top:0;bottom: 0;
+} 
+.form{
+  width: 275px; margin: -15px auto 20px auto; text-align: center;} 
+.input{
+      width: 260px;padding: 5px; margin-bottom: 10px; } 
+.radio{
+  margin-bottom: 10px;} .close{margin: 10px 0 0 320px;cursor: pointer;border: 1px solid #ccc; padding: 2px; background: #ccc;} .close:hover{
+      background: #fff;} 
+#gray{opacity: 0.8; padding: 15px;
+  background-color: rgba(1,1,1,0.75); position: fixed; left: 0;right: 0;top:0;bottom: 0; display: none; z-index:100; overflow: auto; } 
+ 
+ .search {
+  position: absolute;
+  width: 175px;
+  left: 200px;
+  top: -750px;
+  display: flex;
+  padding: 105px;
+  }
+  .searchTerm {
+      width: 100%;
+      border: 3px solid #b621fe;
+      border-right: none;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      font-family: 'Inter';
+     font-style: oblique;
+      }
+  .searchTerm:focus{
+    color: #380136;
+    }
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #b621fe;
+    background: #b621fe;
+    text-align: center;
+    color: #eeeeee;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    }
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
