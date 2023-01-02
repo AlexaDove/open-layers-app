@@ -9,14 +9,10 @@
   <body>
   <div class="module_1">
       <h1>Карта КРАСНОЯРСКА</h1>
-      <div class="d1"><p>поиск</p>
+     <div class="d1"><p>поиск</p>
       </div>
-      <div class="d2">
-      <form>
-      <input type="text" placeholder=" искать ...">
-      </form>
-    </div> 
   </div>
+
 
   <div class="module_2">
     <div class="d3"></div>
@@ -117,5 +113,44 @@ for (i = 0; i < acc.length; i++) {
 <button class="custom-btn btn-9">Войти</button>
 
 <script type="module" src="./main.js"></script>
+
+<center><button onclick="show('block')" class="regButton">Регистрация</button>
+  </center>
+  <!-- Задний прозрачный фон -->
+  <div onclick="show('none')" id="gray"></div>
+<div id="window">
+  <div class="form">
+      <h2>Регистрация</h2>
+      <form action="index.html" name="f1">
+          <input type="text" placeholder="Имя" name="name1" class="input">
+          <input type="text" placeholder="Фамилия" name="name2" class="input">
+          <input type="email" placeholder="Емеил" name="email1" class="input">
+          <input type="password" placeholder="Пароль" name="pass1" class="input">
+          <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+          <input type='tel' placeholder="Мобильный телефон" name="tel" class="input">
+          <input type="submit" value="Регистрация" name="sab" class="input"> Нажимая «Регистрация», вы подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой Конфиденциальности.
+      </form>
+  </div>
+</div>
+
+<script>
+//Функция показа
+function show(state)
+{
+document.getElementById('window').style.display = state;	
+document.getElementById('gray').style.display = state; 		
+}	
+</script>   
+
+<div class="wrap">
+  <div class="search">
+    <input type="text" class="searchTerm" placeholder="искать">
+    <button type="submit" class="searchButton">
+    <i class="fa fa-search"></i>
+    </button>
+  </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+
   </body>
 </html>
