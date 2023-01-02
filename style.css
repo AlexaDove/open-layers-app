@@ -34,7 +34,7 @@ html, body {
   position: absolute;
   width: 59px;
   height: 18px;
-  left: 820px;
+  left: 880px;
   top: 0px;
 
   font-family: 'Inter';
@@ -327,7 +327,7 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
  .search {
   position: absolute;
   width: 175px;
-  left: 200px;
+  left: 120px;
   top: -750px;
   display: flex;
   padding: 105px;
