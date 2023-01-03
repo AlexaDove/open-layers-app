@@ -345,7 +345,7 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
   font-style: oblique;
 }
 .searchTerm:focus{
-    color: #380136;
+  color: #380136;
 }
 .searchButton {
   width: 40px;
