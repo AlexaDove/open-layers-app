@@ -379,19 +379,26 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 .button {
   border: none;
   color: black;
-  padding: 3px 38px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
-  margin: 8px;
-  cursor: pointer;
   display: inline-block;
-  position: relative;
-  top: 781px; 
-  left: 800px; 
+  cursor: pointer;
+  position: absolute; 
+  top: 947px; 
   border-radius: 3px;
 }
-
-.button1 {background-color: #b621fe;} 
-.button2 {background-color: #9721fe;} 
-.button3 {background-color: #1fd1f9;} 
+.button1 {
+  padding: 5px 25px;
+  left: 820px; 
+  background-color: #b621fe;
+} 
+.button2 {
+  background-color: #9721fe;
+  left: 1050px;
+  padding: 5px 25px;
+} 
+.button3 {background-color: #1fd1f9;
+  left: 1240px;
+  padding: 5px 35px;
+} 
